@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #eef2ff, #ffffff);
+    padding: 20px 60px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #6a1bff;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #666;
+}
+
+.contact-number {
+    font-weight: 600;
+    color: #ff5a1f;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 45%;
+}
+
+.tag {
+    display: inline-block;
+    background: #ffe8b6;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #222;
+    min-height: 130px;
+}
+
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.cta {
+    background: #6a1bff;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+}
+
+.watch {
+    background: #fff;
+    border: 2px solid #6a1bff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.client-info img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fb { top: 20px; left: 20px; color: blue; }
+.ig { bottom: 40px; right: 10px; color: purple; }
+.yt { top: 120px; right: -15px; color: red; }
+
+.stats {
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    position: absolute;
+}
+
+.brands { top: 0px; right: 80px; }
+.sales { bottom: 20px; left: 60px; }
